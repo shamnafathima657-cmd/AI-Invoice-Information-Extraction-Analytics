@@ -25,6 +25,3 @@ This project automatically extracts important information from invoices using Tr
 - Plotly
 - OpenPyXL
 
-## Status
-
-🚧 Project Under Development
