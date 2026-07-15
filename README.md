@@ -1,5 +1,5 @@
-# AI-Invoice-Information-Extraction-Analytics
-AI Invoice Information Extraction &amp; Analytics using Transformer-Based Document Understanding
+# AI-Powered-Invoice-Information-Extraction-System
+AAI-powered invoice information extraction system using EasyOCR, Regex, Streamlit, and Python.
 
 
 # AI Invoice Information Extraction & Analytics
