@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pth
+*.csv
+*.db
+.env
+.venv/
+venv/
