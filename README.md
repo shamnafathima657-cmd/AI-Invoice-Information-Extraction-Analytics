@@ -2,26 +2,44 @@
 AAI-powered invoice information extraction system using EasyOCR, Regex, Streamlit, and Python.
 
 
-# AI Invoice Information Extraction & Analytics
+# AI-Powered Invoice Information Extraction System
 
 ## Overview
 
-This project automatically extracts important information from invoices using Transformer-based Document AI and presents the extracted data through an analytics dashboard.
+This project extracts important information from invoice images and PDF documents using EasyOCR and Regular Expressions (Regex).
 
 ## Features
 
-- Upload Invoice (PDF/Image)
-- AI-based Information Extraction
-- Invoice Analytics Dashboard
-- Export CSV/Excel
-- Streamlit Web Application
+- Upload invoice images and PDFs
+- OCR using EasyOCR
+- Extract:
+  - Company Name
+  - Invoice Number
+  - Invoice Date
+  - Tax Amount
+  - Payment Method
+  - Total Amount
+- Save extracted data to CSV
+- Analytics Dashboard
+- Interactive Streamlit interface
 
 ## Technologies
 
 - Python
-- Hugging Face Transformers
 - Streamlit
+- EasyOCR
 - Pandas
 - Plotly
-- OpenPyXL
+- OpenCV
+- NumPy
+- Regex
 
+## Workflow
+
+Invoice → OCR → Text Extraction → Regex → Structured Data → CSV → Analytics
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
