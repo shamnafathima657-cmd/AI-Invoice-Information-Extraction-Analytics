@@ -4,9 +4,8 @@ import plotly.express as px
 import os
 from PIL import Image
 
-from utils.ocr import extract_text
-from models.invoice_extractor import extract_invoice_data
-
+from ocr import extract_text
+from invoice_extractor import extract_invoice_information
 
 # ---------------------------------
 # Page Configuration
