@@ -146,7 +146,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
+streamlit cloud community deployment link:
+https://ai-invoice-information-extraction-analytics-g3idn795ucswcvwjvv.streamlit.app/
 ---
 
 #  Sample Workflow
