@@ -167,7 +167,7 @@ if page == "🏠 Home":
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        st.metric("📄 Supported Files", "JPG / PDF / JPG")
+        st.metric("📄 Supported Files", "JPG / PDF / png")
 
     with col2:
         st.metric("🤖 OCR Engine", "EasyOCR")
@@ -176,7 +176,7 @@ if page == "🏠 Home":
         st.metric("📊 Output", "CSV")
 
     with col4:
-        st.metric("⚡ Extraction", "OCR + Regex")
+        st.metric("⚡ Extraction", "Regex")
 
     st.divider()
 
@@ -241,7 +241,10 @@ if page == "🏠 Home":
     📝 Extracted Text
         │
         ▼
-   🔍 Regex Information Extraction
+    🤖 Custom Transformer Model
+        │
+        ▼
+   🔍 Regex + pattern matching
         │
         ▼
    📋 Structured Invoice Data
@@ -572,40 +575,7 @@ elif page == "ℹ️ About":
     - Store extracted data for future analysis.
     - Provide visual analytics of invoice records.
     """)
-
-    st.divider()
-
-    st.subheader("🛠 Technologies Used")
-
-    st.markdown("""
-    - 🐍 Python
-    - 🎨 Streamlit
-    - 🤖 EasyOCR
-    - 🔍 Regular Expressions (Regex)
-    - 📊 Pandas
-    - 📈 Plotly
-    - 🖼 OpenCV
-    - 🔢 NumPy
-    """)
-
-    st.divider()
-
-    st.subheader("📋 Extracted Information")
-
-    st.markdown("""
-    ✅ Company Name
-
-    ✅ Invoice Number
-
-    ✅ Invoice Date
-
-    ✅ Tax Amount
-
-    ✅ Payment Method
-
-    ✅ Total Amount
-    """)
-
+    
     st.divider()
 
     st.subheader("⚠️ Current Limitations")
