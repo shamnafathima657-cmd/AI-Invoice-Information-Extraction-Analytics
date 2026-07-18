@@ -241,10 +241,7 @@ if page == "🏠 Home":
     📝 Extracted Text
         │
         ▼
-    🤖 Custom Transformer Model
-        │
-        ▼
-   🔍 Regex + pattern matching
+   🔍 Regex 
         │
         ▼
    📋 Structured Invoice Data
